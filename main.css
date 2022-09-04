@@ -1,0 +1,50 @@
+html, body{ 
+    margin:0;
+    padding:0;
+    min-width: 1140px;
+}
+
+#Home{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#Navbar{
+    background-color: white;
+    display: flex;
+    position:fixed;
+    width : 100%;
+}
+
+#Navbar h2{
+    margin :10px 50px;
+    font-family: Andale Mono, monospace;
+}
+
+#List .List-item{
+    font-family: Andale Mono, monospace;
+    font-size: small;
+}
+
+#List{
+    list-style :none;
+    margin: 0 0 0 auto;
+}
+
+#List button{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#List li{
+    display: inline-block;
+    margin: 10px 30px;
+}
