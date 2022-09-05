@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  min-width: 1140px;
   background-color: #26262b
 }
 
@@ -18,7 +17,7 @@ body {
 #Navbar {
   background-color: #6cb1ff;
   display: flex;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 
