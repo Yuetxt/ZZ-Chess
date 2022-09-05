@@ -1,0 +1,121 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#26262b;
+}
+
+span, ::placeholder{
+  font-family:  Andale Mono, monospace;
+}
+
+
+#Home {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+#Navbar {
+  background-color: #f7f7f7;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+#Navbar h2 {
+  margin: 10px 50px;
+  font-family: Andale Mono, monospace;
+}
+
+#List .List-item {
+  font-family: Andale Mono, monospace;
+  font-size: small;
+}
+
+#List {
+  list-style: none;
+  margin: 0 0 0 auto;
+}
+
+#List button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+#List li {
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+
+#Login-box-container{
+  position:relative;
+  width: 100%;
+  height: 100vh;
+  margin : auto;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+#Login-box-container #Login-box{
+  border-radius:10px;
+  height: 50%;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 1px 4px 0 #ebebeb33, 0 3px 10px 0 #ebebeb33;
+}
+
+#Login-box-container #Login-box span{
+  position:relative; 
+  margin:30px;
+}
+
+#Login-box-container #Login-box:hover{
+  box-shadow: 0 4px 8px 0 #ebebeb33, 0 6px 20px 0 #ebebeb33;
+}
+
+#Login-box .Login-infos {
+    position:relative;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 100%;
+    height:50px;
+}
+
+.Login-infos input{
+  position: absolute;
+  padding: 0,35px; 
+  height:100%;
+  width :100%;
+  border:none;
+  outline:none;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid transparent;
+}
+
+
+.Login-infos input:is(:focus){
+    border-bottom-color: #26262b;
+}
+
+
+
+
+.Login-infos img{
+    position:absolute;
+}
+
+#submit{
+    border-radius: 10px;
+    background-color: #26262b;
+    color:#ccc;
+}
