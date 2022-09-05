@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OneMoveChess</title>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="UserLogin.css">
         <title>
             LOGIN
         </title>
@@ -52,19 +53,24 @@
           </div>
           <div id="Login-box-container">
             <div id="Login-box">
-                <span style="margin:30px">
-                    Login Information
+              <div id="form-login">
+                <span>
+                  Login Information
                 </span> 
-                
-                <div class="Login-infos">
-                    <img src="Icons/user.svg"> 
-                    <input type="text" placeholder="Username Or Email...">
-                </div>
-                <div class="Login-infos">
-                    <img src="Icons/lock.svg">
-                    <input type="text" placeholder="Password">
-                </div>
-                
+                <form type="box" action="#">
+                  <div class="Login-infos">
+                      <img src="Icons/user.svg"> 
+                      <input type="text" placeholder="Enter Username Or Email..." required>
+                  </div>
+                  <div class="Login-infos">
+                      <img src="Icons/lock.svg">
+                      <input type="password" placeholder="Enter Password" required>
+                  </div>
+                  <div class="Login-infos">
+                      <input id="submit" type="submit">
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
     </body>
