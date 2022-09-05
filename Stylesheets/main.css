@@ -120,7 +120,7 @@ body {
 
 .contentBox .content h2 span {
   color: #333;
-  font-size: 0.75em;
+  font-size: 0.55em;
   text-transform: uppercase;
 }
 
@@ -137,4 +137,32 @@ body {
 .contentBox .content p {
   font-weight: 300;
   font-size: 1.50em;
+}
+
+@media (max-width: 767px) {
+  .contentBox {
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .contentBox .imgBx {
+    height: 200px;
+    transform: translateY(-50px);
+  }
+
+  .contentBox .imgBx::before {
+    background: #fff;
+    background: url('../chess_graphic.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .contentBox .content {
+    height: auto;
+    text-align: center;
+    padding: 1px;
+    padding-top: 0;
+  }
+
 }
