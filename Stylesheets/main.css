@@ -22,7 +22,7 @@ span, ::placeholder{
 #Navbar {
   background-color: #f7f7f7;
   display: flex;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 
