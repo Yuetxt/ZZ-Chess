@@ -16,7 +16,7 @@ body {
 }
 
 #Navbar {
-  background-color: white;
+  background-color: #6cb1ff;
   display: flex;
   position: fixed;
   width: 100%;
@@ -49,4 +49,21 @@ body {
 #List li {
   display: inline-block;
   margin: 10px 30px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  Left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contentBox {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
