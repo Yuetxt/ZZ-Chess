@@ -6,6 +6,11 @@ body {
   background-color:#26262b
 }
 
+span, ::placeholder{
+  font-family:  Andale Mono, monospace;
+}
+
+
 #Home {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -50,6 +55,39 @@ body {
   display: inline-block;
   margin: 10px 30px;
 }
+
+
+#Login-box-container{
+  width: auto;
+  height: 50vh;
+  margin: auto;
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+#Login-box{
+  border-radius:10px;
+  height: 50%;
+  padding: 30px;
+  background: #f7f7f7;
+  box-shadow: 0 1px 4px 0 #ebebeb33, 0 3px 10px 0 #ebebeb33;
+}
+
+#Login-box:hover{
+  box-shadow: 0 4px 8px 0 #ebebeb33, 0 6px 20px 0 #ebebeb33;
+}
+
+
+.Login-infos input{
+    font-size: 20px;
+    width: 200px;
+    border : 0;
+    background : transparent;
+    outline: none;
+}
+
+
 
 
 .containerHome {
@@ -126,7 +164,6 @@ body {
 #footer {
   clear: both;
 }
-
 
 a {
   text-decoration: none;
