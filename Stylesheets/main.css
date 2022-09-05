@@ -55,14 +55,86 @@ body {
   top: 50%;
   Left: 50%;
   transform: translate(-50%, -50%);
+  display: none;
 }
 
 .contentBox {
   position: relative;
   width: 600px;
   height: 400px;
-  background: #fff;
+  background: #6cb1ff;
   border-radius: 20px;
   display: flex;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contentBox .imgBx {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBox .imgBx::before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #e7ffe0;
+  border-radius: 50%;
+  background: url('../chess_graphic.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.contentBox .imgBx img {
+  position: relative;
+  max-width: 250px;
+  z-index: 1;
+}
+
+.contentBox .content {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contentBox .content h3 {
+  color: #333;
+  line-height: 1em;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.contentBox .content h2 {
+  font-size: 3em;
+  color: #000000;
+  line-height: 1em;
+}
+
+.contentBox .content h2 span {
+  color: #333;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.contentBox .content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4d54;
+  color: #fff;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.contentBox .content p {
+  font-weight: 300;
+  font-size: 1.50em;
 }
