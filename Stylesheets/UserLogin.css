@@ -93,7 +93,7 @@ span, ::placeholder{
 
 .Login-infos input{
   position: absolute;
-  padding: 0,35px; 
+  padding: 0,50px; 
   height:100%;
   width :100%;
   border:none;
@@ -107,12 +107,10 @@ span, ::placeholder{
     border-bottom-color: #26262b;
 }
 
-
-
-
 .Login-infos img{
-    position:absolute;
+  position: absolute;
 }
+
 
 #submit{
     border-radius: 10px;
