@@ -1,4 +1,4 @@
-# OneMoveChess
+# ZZ Chess
 A new way of playing chess where every each player only has one move for the day.
 Anyone, regardless of skill, can make a move any of the chess boards available at anytime. 
 
